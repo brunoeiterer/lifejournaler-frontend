@@ -1,0 +1,32 @@
+{
+  "name": "journaler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --experimental-https",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "next": "15.5.7",
+    "next-runtime-env": "^3.2.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-is": "19.1.1",
+    "recharts": "^3.1.2",
+    "tailwind-styled-components": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.12",
+    "eslint": "^8",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.1.12"
+  }
+}

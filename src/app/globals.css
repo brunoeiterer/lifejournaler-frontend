@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+input.suds-slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  background-color: currentColor;
+  border: 0px solid black;
+  cursor: pointer;
+  position: relative;
+}
+
+input.suds-slider::-moz-range-thumb {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  background-color: currentColor;
+  border: 0px solid black;
+  cursor: pointer;
+}
